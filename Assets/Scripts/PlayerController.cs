@@ -34,13 +34,13 @@ public class PlayerController : MonoBehaviour
         {
             canMove = true;
         }
+        MovePlayer();
+        Jump();
     }
     private void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(grdChecker.position, grdCheckerRad, whatIsGrd);
 
-        MovePlayer();
-        Jump();
         
     }
     void MovePlayer()
@@ -91,5 +91,13 @@ public class PlayerController : MonoBehaviour
         }
 
         theAnimator.SetBool("Grounded", grounded);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Dead!");
+        }
     }
 }
