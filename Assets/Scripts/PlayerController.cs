@@ -17,15 +17,29 @@ public class PlayerController : MonoBehaviour
     public float airTime;
     public float airTimeCounter;
 
+    private bool ctrlActive;
+    private bool isDead;
+
+    private Collider2D playerCol;
+    public GameObject[] childObjs;
+    public float shockForce;
+
     private Animator theAnimator;
+
+    public GameManager theGM;
+    private LivesManager theLM;
 
     void Start()
     {
+        theLM = FindObjectOfType<LivesManager>();
         theRB2D = GetComponent<Rigidbody2D>();
         theAnimator = GetComponent<Animator>();
 
+        playerCol = GetComponent<Collider2D>();
+
         airTimeCounter = airTime;
 
+        ctrlActive = true;
     }
     
     void Update()
@@ -33,15 +47,17 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
             canMove = true;
-        }
-        MovePlayer();
-        Jump();
+        }    
     }
     private void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(grdChecker.position, grdCheckerRad, whatIsGrd);
 
-        
+        if(ctrlActive == true)
+        {
+            MovePlayer();
+            Jump();
+        }
     }
     void MovePlayer()
     {
@@ -98,6 +114,31 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag == "Enemy")
         {
             Debug.Log("Dead!");
+            theLM.TakeLife();
+            PlayerDeath();
         }
+    }
+
+    void PlayerDeath()
+    {
+        isDead = true;
+        theAnimator.SetBool("Dead", isDead);
+
+        ctrlActive = false;
+
+
+        StartCoroutine("PlayerRespawn");
+    }
+
+    IEnumerator PlayerRespawn()
+    {
+        yield return new WaitForSeconds(1.5f);
+        isDead = false;
+        theAnimator.SetBool("Dead", isDead);
+
+
+        yield return new WaitForSeconds(0.1f);
+        ctrlActive = true;
+        theGM.Reset();
     }
 }

@@ -10,6 +10,7 @@ public class Ghost : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private bool canMove;
+    public GameManager theGM;
 
     void Start()
     {
@@ -53,4 +54,6 @@ public class Ghost : MonoBehaviour
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
+    
+    
 }

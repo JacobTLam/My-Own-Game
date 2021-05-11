@@ -4,23 +4,13 @@ using UnityEngine;
 
 public class ExitDoor : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public GameManager theGM;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Got Out!");
+            theGM.Victory();
         }
     }
 }
