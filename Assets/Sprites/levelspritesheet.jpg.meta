@@ -10,7 +10,7 @@ TextureImporter:
     second: levelspritesheet_0
   - first:
       213: 5419521220698708297
-    second: levelspritesheet_1
+    second: door
   - first:
       213: 7875636211752298154
     second: levelspritesheet_2
@@ -2618,7 +2618,7 @@ TextureImporter:
         width: 567
         height: 317
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2626,6 +2626,27 @@ TextureImporter:
       bones: []
       spriteID: 2678d7b0a5b4f19d0800000000000000
       internalID: -2801437593089243294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1629
+        width: 73
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949107c16d1063b40800000000000000
+      internalID: 5419521220698708297
       vertices: []
       indices: 
       edges: []

@@ -43,82 +43,82 @@ TextureImporter:
     second: Blood.Splat1
   - first:
       213: -2038251996943873057
-    second: levelspritesheet-mk4_13
+    second: reception.desk
   - first:
       213: 2139792522748796554
-    second: levelspritesheet-mk4_14
+    second: table
   - first:
       213: -1391836453456938456
-    second: levelspritesheet-mk4_15
+    second: lamp
   - first:
       213: 5149666777392710373
-    second: levelspritesheet-mk4_16
+    second: chairs
   - first:
       213: -1150604546292721975
-    second: levelspritesheet-mk4_17
+    second: bullitinboard
   - first:
       213: -3198033214726117459
-    second: levelspritesheet-mk4_18
+    second: Bed-n-IV
   - first:
       213: 6888147312805795453
-    second: levelspritesheet-mk4_19
+    second: Bloody-EKG3
   - first:
       213: -2085904651258376694
-    second: levelspritesheet-mk4_20
+    second: Bloody-EKG1
   - first:
       213: -6588993408500945171
-    second: levelspritesheet-mk4_21
+    second: Bloody-EKG2
   - first:
       213: -7295280807319525366
-    second: levelspritesheet-mk4_22
+    second: Blood-EKG4
   - first:
       213: -3903737723892941585
-    second: levelspritesheet-mk4_23
+    second: Bloody-EKG5
   - first:
       213: 8134837232328864556
-    second: levelspritesheet-mk4_24
+    second: fire-extinguisher
   - first:
       213: 6863645675090614601
-    second: levelspritesheet-mk4_25
+    second: curtains4
   - first:
       213: 7133961263590566760
-    second: levelspritesheet-mk4_26
+    second: curtains2
   - first:
       213: -7613988668497414431
-    second: levelspritesheet-mk4_27
+    second: Walking-monster1
   - first:
       213: -3545851236582935030
-    second: levelspritesheet-mk4_28
+    second: Walking-monster2
   - first:
       213: 7353606903274026738
-    second: levelspritesheet-mk4_29
+    second: Walking-monster3
   - first:
       213: -7415158992502314802
-    second: levelspritesheet-mk4_30
+    second: Walking-monster4
   - first:
       213: 3451660929620267981
-    second: levelspritesheet-mk4_31
+    second: Walking-monster5
   - first:
       213: 5776580886988263828
-    second: levelspritesheet-mk4_32
+    second: Walking-monster6
   - first:
       213: 6138819669818030943
-    second: levelspritesheet-mk4_33
+    second: Walking-monster7
   - first:
       213: 6170657172922782223
-    second: levelspritesheet-mk4_34
+    second: Walking-monster8
   - first:
       213: -8637140529339546016
-    second: levelspritesheet-mk4_35
+    second: Walking-monster9
   - first:
       213: 1984280951211999020
-    second: levelspritesheet-mk4_36
+    second: Walking-monster10
   - first:
       213: 1338770213759712985
-    second: levelspritesheet-mk4_37
+    second: Walking-monster11
   - first:
       213: -1137279859705511488
-    second: levelspritesheet-mk4_38
+    second: Walking-monster12
   - first:
       213: -4753383311900964283
     second: levelspritesheet-mk4_39
@@ -1322,7 +1322,7 @@ TextureImporter:
         width: 561
         height: 357
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1330,6 +1330,552 @@ TextureImporter:
       bones: []
       spriteID: 90b0e8cac501c0270800000000000000
       internalID: 8217961410262338313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reception.desk
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 55
+        width: 518
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb0e6f9b9ca6b3e0800000000000000
+      internalID: -2038251996943873057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 55
+        width: 150
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e9a7b56f112bd10800000000000000
+      internalID: 2139792522748796554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 54
+        width: 57
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a724eae143face0800000000000000
+      internalID: -1391836453456938456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 52
+        width: 148
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e28f1266aa477740800000000000000
+      internalID: 5149666777392710373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullitinboard
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 199
+        width: 133
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6d545e24b3800f0800000000000000
+      internalID: -1150604546292721975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed-n-IV
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1321
+        width: 237
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da769503cbd4e93d0800000000000000
+      internalID: -3198033214726117459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody-EKG3
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1341
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76d95c6c7d979f50800000000000000
+      internalID: 6888147312805795453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody-EKG1
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1339
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec86275c06d03e0800000000000000
+      internalID: -2085904651258376694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody-EKG2
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1340
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee29eaa7613f84a0800000000000000
+      internalID: -6588993408500945171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood-EKG4
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1340
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08aefef1c4f1ca90800000000000000
+      internalID: -7295280807319525366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody-EKG5
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1340
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecb117193323d9c0800000000000000
+      internalID: -3903737723892941585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-extinguisher
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1630
+        width: 30
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c237592dc5fb4e070800000000000000
+      internalID: 8134837232328864556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtains4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 52
+        width: 294
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9491ce75061904f50800000000000000
+      internalID: 6863645675090614601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtains2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 53
+        width: 174
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b66bdc8fbe00360800000000000000
+      internalID: 7133961263590566760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 329
+        width: 94
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6bc5a85ada55690800000000000000
+      internalID: -7613988668497414431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 328
+        width: 84
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a063819461b9acec0800000000000000
+      internalID: -3545851236582935030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 328
+        width: 135
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6328774824d0660800000000000000
+      internalID: 7353606903274026738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 329
+        width: 111
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec82bdafe20181990800000000000000
+      internalID: -7415158992502314802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 329
+        width: 139
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35c1be353c6ef20800000000000000
+      internalID: 3451660929620267981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 328
+        width: 111
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911f3906b98a2050800000000000000
+      internalID: 5776580886988263828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster7
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 329
+        width: 104
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b3faff6f7713550800000000000000
+      internalID: 6138819669818030943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster8
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 329
+        width: 102
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0257c6510492a550800000000000000
+      internalID: 6170657172922782223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster9
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 329
+        width: 92
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06646993376b22880800000000000000
+      internalID: -8637140529339546016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster10
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 329
+        width: 110
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb09f0305998b10800000000000000
+      internalID: 1984280951211999020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster11
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 329
+        width: 130
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de75039a64449210800000000000000
+      internalID: 1338770213759712985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking-monster12
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 329
+        width: 161
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c10c004ef19730f0800000000000000
+      internalID: -1137279859705511488
       vertices: []
       indices: 
       edges: []

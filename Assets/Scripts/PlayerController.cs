@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public GameManager theGM;
     private LivesManager theLM;
 
+    public bool nteract;
+
     void Start()
     {
         theLM = FindObjectOfType<LivesManager>();
@@ -47,7 +49,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
             canMove = true;
-        }    
+        }
+
+       
     }
     private void FixedUpdate()
     {
@@ -57,8 +61,23 @@ public class PlayerController : MonoBehaviour
         {
             MovePlayer();
             Jump();
+            Interacting();
         }
     }
+
+    void Interacting()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            nteract = true;
+            Debug.Log("LOL");
+
+        }else
+        {
+            nteract = false;
+        }
+    }
+    
     void MovePlayer()
     {
         if (canMove)
@@ -108,6 +127,7 @@ public class PlayerController : MonoBehaviour
 
         theAnimator.SetBool("Grounded", grounded);
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {

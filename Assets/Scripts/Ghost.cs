@@ -12,16 +12,26 @@ public class Ghost : MonoBehaviour
     private bool canMove;
     public GameManager theGM;
 
+    private bool controlActive;
+    private bool isKilled;
+    private Animator theAnimator;
+
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();       
+        rb = this.GetComponent<Rigidbody2D>();
+        theAnimator = GetComponent<Animator>();
+
+        controlActive = true;
     }
 
     void Update()
     {
-        Turn();
-        ghostMovement();
-        Debug.Log(movement);
+        if(controlActive == true)
+        {
+            Turn();
+            ghostMovement();
+        }
+        
     }
 
     void ghostMovement()
@@ -35,7 +45,10 @@ public class Ghost : MonoBehaviour
 
     private void FixedUpdate()
     {
-        moveCharacter(movement);
+        if (controlActive == true)
+        {
+            moveCharacter(movement);
+        }
     }
 
     void Turn()
@@ -54,6 +67,37 @@ public class Ghost : MonoBehaviour
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
-    
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("LOl");
+            Killed();
+        }
+    }
+
+    void Killed()
+    {
+        isKilled = true;
+        theAnimator.SetBool("Dead", isKilled);
+
+        controlActive = false;
+
+
+        StartCoroutine("PlayerRespawn");
+    }
+
+    IEnumerator PlayerRespawn()
+    {
+        yield return new WaitForSeconds(1.5f);
+        isKilled = false;
+        theAnimator.SetBool("Dead", isKilled);
+
+
+        yield return new WaitForSeconds(0.1f);
+        controlActive = true;
+        //theGM.Reset();
+    }
+
 }
